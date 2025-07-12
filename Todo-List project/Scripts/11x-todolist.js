@@ -33,7 +33,10 @@ for (t = 0; t < todoArray.length; t++) {
     .innerHTML = todoLISTHTML;
     document.querySelector('.dates')
 }
-
+document.querySelector('.add-button')
+.addEventListener('click', () => {
+  myTodo()
+})
  
 function myTodo() {
   const valueElement=document.querySelector('.putDetail')
