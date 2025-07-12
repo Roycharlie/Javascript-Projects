@@ -18,3 +18,12 @@ body {
             font-weight: bold;
             font-size: 30px;
         }
+        .js-buttons{
+            padding: 15px;
+            background-color: yellow;
+            font-size: bold;
+            border: none;
+            border-radius: 50px;
+            font-family: cursive;
+
+        }

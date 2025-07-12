@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors Project</title>
     <link rel="stylesheet" href="Styles/10-rock-paper-scissors.css">
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
-    <button onclick="playGame('rock')"
-    class="move-button"><img src="Images/rock-emoji.png"
+    <button onclick=""
+    class="move-button js-rock-button"><img src="Images/rock-emoji.png"
     class="icon-image"></button>
 
 
-    <button onclick="playGame('paper')"
-    class="move-button"><img src="Images/paper-emoji.png"
+    <button onclick=""
+    class="move-button js-paper-button"><img src="Images/paper-emoji.png"
     class="icon-image"></button>
 
 
-    <button onclick="playGame('scissors')"
-    class="move-button"><img src="Images/scissors-emoji.png"
+    <button onclick=""
+    class="move-button js-scissors-button"><img src="Images/scissors-emoji.png"
     class="icon-image"></button>
 
 
@@ -38,7 +38,8 @@
 
     
     
-    ">Reset score</button>
+     "class="js-buttons" >Reset score</button>
+    <button onclick="autoPlay()" class="autoPlay js-buttons">Auto Play</button>
     
     <script src="scripts/10-rock-paper-scissors.js"> </script>
 </body>
